@@ -3,7 +3,8 @@
 class Router extends Backbone.Router
   routes :
     # Put your routes here
-    # '' : 'intro'
+    '' : 'first_load'
+    '/ovals/:id' : 'oval'
 
     # Catch all
     '*splat' : 'no_match'

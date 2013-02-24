@@ -2,6 +2,7 @@
 #= require hamlcoffee
 #= require jquery
 #= require json2
+#= require js_url
 #= require modernizr
 #= require moment
 #= require jquery.cookie
