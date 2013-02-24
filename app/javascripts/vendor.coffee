@@ -2,7 +2,11 @@
 #= require hamlcoffee
 #= require jquery
 #= require json2
+#= require modernizr
+#= require moment
+#= require jquery.cookie
 #= require underscore
+#= require underscore_string.custom
 #= require backbone
 #= require backbone.statemanager
 #= require backbone.wreqr

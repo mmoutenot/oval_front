@@ -15,6 +15,6 @@ window.Oval =
     Layouts : {}
   Helpers : {}
 
-  init : -> new Oval.App()
+  initialize : _.once -> new Oval.App()
 
-$(document).ready -> Oval.init()
+$(document).ready -> Oval.initialize()
