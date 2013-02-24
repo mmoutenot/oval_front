@@ -1,5 +1,5 @@
 #= require ./vendor
-#= require_tree ../templates
+#= require_tree ./templates
 
 window.Oval =
   Models : {}
@@ -16,3 +16,5 @@ window.Oval =
   Helpers : {}
 
   init : -> new Oval.App()
+
+$(document).ready -> Oval.init()

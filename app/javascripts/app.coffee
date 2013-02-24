@@ -1,5 +1,4 @@
 #= require ./oval
-#= require_tree ./auth
 #= require ./router
 #= require ./views/chrome/chrome_layout
 #= require_tree ./helpers
@@ -29,12 +28,12 @@ start = ->
   try Backbone.history.start()
 
 setApplicationVariables = (response) ->
-  oval.router = new CLS.Router()
+  oval.router = new Oval.Router()
   initializeObjects oval.directors, Oval.Directors
 
 initializeChrome = ->
   oval.chrome = new Oval.Views.Layouts.Chrome()
-  @body.show @chrome
+  oval.body.show oval.chrome
 
 initializeModules = ->
   # Enter your modules here

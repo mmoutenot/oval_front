@@ -6,7 +6,7 @@
 #= require backbone
 #= require backbone.statemanager
 #= require backbone.wreqr
-#= require backbone.babbysitter
+#= require backbone.babysitter
 
 # We are using a custom version of Backbone.Marionette modified to support JST
-#= require marionette
+#= require backbone.marionette

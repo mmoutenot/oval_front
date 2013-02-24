@@ -940,7 +940,7 @@ Marionette.Renderer = {
   render: function(template, data){
     // var templateFunc = typeof template === 'function' ? template : Marionette.TemplateCache.get(template);
     // var html = templateFunc(data);
-    return JST[template](data);
+    return JST['templates/' + template](data);
   }
 };
 
