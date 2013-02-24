@@ -9,6 +9,7 @@
 #= require underscore
 #= require underscore_string.custom
 #= require backbone
+#= require backbone.relational
 #= require backbone.statemanager
 #= require backbone.wreqr
 #= require backbone.babysitter

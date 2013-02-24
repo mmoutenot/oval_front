@@ -21,8 +21,10 @@ class Oval.App extends Backbone.Marionette.Application
 
 start = ->
   oval.addRegions body : 'body'
+  oval.account = new Oval.Models.User()
   initializeChrome()
 
   try Backbone.history.start()
+
 
 initializeChrome = -> oval.body.show oval.chrome = new Oval.Views.Layouts.Chrome()
