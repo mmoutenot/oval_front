@@ -1,0 +1,68 @@
+@import "main";
+
+#top {
+	margin-bottom:20px;
+	#logo {
+		color:$black;
+		font-size:110px;
+		width:400px;
+		display:block;
+		margin:100px auto 0 auto;
+		text-align:center;
+
+		span {
+			color:$orange;
+			font-size:130px;
+			line-height:50px;
+		}
+	}
+	#tagline
+		h3 {
+			margin:0;
+			padding:0;
+			color:$black;
+			font-size:28px;
+			text-align: center;
+		}
+}
+
+#form {
+	width:294px;
+	@include clearfix;
+	margin:0 auto;
+	
+	input {
+		border:2px solid #D3D3D3;
+		width:290px;
+		padding:2px;
+		height:30px;
+		line-height:30px;
+		font-size:26px;
+		background:#EEE;
+		font-family: ArcherMain;
+		margin: 10px 0;
+		&:focus{ 
+			outline:2px solid $orange;
+		}
+	}
+
+	#submit {
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		width:200px;
+		margin:0 auto;
+		height:40px;
+		color:#EEE;
+		font-size:22px;
+		line-height:40px;
+		background: $orange;
+		border-radius:4px;
+		margin-top:10px;
+		outline:red;
+		@include transition(all .3s ease-in-out);
+		&:hover {
+			background: darken($orange,20%);
+		}
+	}
+}

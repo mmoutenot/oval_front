@@ -1,0 +1,27 @@
+@import "bourbon";
+
+/*--COLORS--*/
+$black: #454545;
+$orange: #FF9A3A;
+$orange_dark: #BF732B;
+$blue: #035B73;
+$blue_o: RGBa(3,91,115,.7);
+$blue_dark: #012933;
+$white_o : RGBa(222,222,222,.7);
+
+
+/*--FONTS--*/
+@font-face {
+font-family: ArcherMain;
+		src: url('../fonts/Archer-Light-Pro.otf');
+     	/* url('Archer-Light-Pro.otf');  IE9 */
+}
+
+
+body, html {
+	@include background-image(url("../images/grey.png"));
+	height:100%;
+	padding:0;
+	margin:0;
+	font-family:ArcherMain;
+}

@@ -1,0 +1,17 @@
+/*--COLORS--*/
+/*--FONTS--*/
+@font-face {
+  font-family: ArcherMain;
+  src: url("../fonts/Archer-Light-Pro.otf");
+  /* url('Archer-Light-Pro.otf');  IE9 */ }
+
+body, html {
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: ArcherMain; }

@@ -1,0 +1,81 @@
+/*--COLORS--*/
+/*--FONTS--*/
+@font-face {
+  font-family: ArcherMain;
+  src: url("../fonts/Archer-Light-Pro.otf");
+  /* url('Archer-Light-Pro.otf');  IE9 */ }
+
+body, html {
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: ArcherMain; }
+
+#top {
+  margin-bottom: 20px; }
+  #top #logo {
+    color: #454545;
+    font-size: 110px;
+    width: 400px;
+    display: block;
+    margin: 100px auto 0 auto;
+    text-align: center; }
+    #top #logo span {
+      color: #ff9a3a;
+      font-size: 130px;
+      line-height: 50px; }
+  #top #tagline
+  h3 {
+    margin: 0;
+    padding: 0;
+    color: #454545;
+    font-size: 28px;
+    text-align: center; }
+
+#form {
+  width: 294px;
+  *zoom: 1;
+  margin: 0 auto; }
+  #form:before, #form:after {
+    content: " ";
+    display: table; }
+  #form:after {
+    clear: both; }
+  #form input {
+    border: 2px solid lightgrey;
+    width: 290px;
+    padding: 2px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 26px;
+    background: #EEE;
+    font-family: ArcherMain;
+    margin: 10px 0; }
+    #form input:focus {
+      outline: 2px solid #ff9a3a; }
+  #form #submit {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    height: 40px;
+    color: #EEE;
+    font-size: 22px;
+    line-height: 40px;
+    background: #ff9a3a;
+    border-radius: 4px;
+    margin-top: 10px;
+    outline: red;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    #form #submit:hover {
+      background: #d36700; }

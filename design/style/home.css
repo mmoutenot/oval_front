@@ -1,0 +1,220 @@
+/*--COLORS--*/
+/*--FONTS--*/
+@font-face {
+  font-family: ArcherMain;
+  src: url("../fonts/Archer-Light-Pro.otf");
+  /* url('Archer-Light-Pro.otf');  IE9 */ }
+
+body, html {
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  background-image: url("../images/grey.png");
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: ArcherMain; }
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #035b73; }
+  #navbar #logo {
+    font-size: 55px;
+    line-height: 50px;
+    margin-left: 50px;
+    color: #FFF; }
+    #navbar #logo span {
+      color: #ff9a3a;
+      font-size: 70px;
+      line-height: 50px; }
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  top: 90px;
+  position: relative; }
+  #container .plus {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    color: #FFF;
+    background: #ff9a3a;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 90px;
+    float: right;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    #container .plus:hover {
+      background: #bf732b; }
+  #container #left {
+    width: 280px;
+    padding: 10px;
+    float: left;
+    background: RGBa(222, 222, 222, 0.7);
+    position: fixed;
+    height: 100%;
+    top: 70px;
+    border-right: 2px solid #dddddd;
+    overflow-y: scroll; }
+    #container #left #create {
+      width: 100%;
+      height: 80px;
+      margin-top: 3px;
+      display: block; }
+      #container #left #create #create_hidden {
+        width: 210px;
+        float: left;
+        margin-left: 10px;
+        display: none; }
+        #container #left #create #create_hidden input {
+          border: 2px solid #dddddd;
+          font-family: ArcherMain;
+          padding: 2px;
+          width: 196px;
+          height: 22px;
+          font-size: 20px;
+          margin: 10px 0 10px 0; }
+        #container #left #create #create_hidden a {
+          text-decoration: none;
+          display: block;
+          width: 200px;
+          text-align: center;
+          background: #ff9a3a;
+          height: 30px;
+          line-height: 30px;
+          color: #FFF;
+          font-size: 16px;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+          #container #left #create #create_hidden a:hover {
+            background: #bf732b; }
+    #container #left #groups {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      #container #left #groups li {
+        list-style: none;
+        margin: 0;
+        width: 100%;
+        border-bottom: 2px solid #bbbbbb; }
+        #container #left #groups li a {
+          text-decoration: none;
+          font-size: 18px;
+          text-align: left;
+          padding: 20px 0;
+          display: block;
+          color: #454545; }
+          #container #left #groups li a:hover {
+            background: #D3D3D3; }
+  #container #right {
+    width: 700px;
+    float: left;
+    display: block;
+    position: fixed;
+    background: RGBa(222, 222, 222, 0.7);
+    height: 100%;
+    margin-left: 300px;
+    top: 70px;
+    overflow-y: scroll;
+    padding: 10px;
+    *zoom: 1; }
+    #container #right:before, #container #right:after {
+      content: " ";
+      display: table; }
+    #container #right:after {
+      clear: both; }
+    #container #right input {
+      font-family: ArcherMain;
+      padding: 2px;
+      width: 200px;
+      height: 22px;
+      font-size: 20px;
+      border: 2px solid #dddddd;
+      float: right;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+      #container #right input:focus {
+        width: 400px;
+        outline: 2px solid #ff9a3a; }
+    #container #right #new_btn {
+      text-decoration: none;
+      display: block;
+      width: 100px;
+      height: 26px;
+      line-height: 26px;
+      color: #FFF;
+      text-align: center;
+      background: #ff9a3a;
+      float: right;
+      border-radius: 2px;
+      margin-left: 20px;
+      margin-top: 2px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #container #right #new_btn:hover {
+        background: #bf732b; }
+    #container #right #boxes {
+      width: 650px;
+      margin: 50px auto 0 auto;
+      padding: 10px 10px 200px 10px;
+      *zoom: 1; }
+      #container #right #boxes:before, #container #right #boxes:after {
+        content: " ";
+        display: table; }
+      #container #right #boxes:after {
+        clear: both; }
+      #container #right #boxes .box {
+        width: 320px;
+        display: block;
+        float: left;
+        height: 300px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        position: relative; }
+        #container #right #boxes .box a {
+          text-decoration: none;
+          display: block; }
+          #container #right #boxes .box a .info {
+            background: RGBa(3, 91, 115, 0.7);
+            height: 70px;
+            color: #FFF;
+            left: 0;
+            display: block;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            width: 320px; }
+            #container #right #boxes .box a .info h2 {
+              padding: 0;
+              margin: 5px 10px; }
+            #container #right #boxes .box a .info h3 {
+              margin: 0 10px;
+              padding: 0; }
+          #container #right #boxes .box a img {
+            width: 320px;
+            height: 240px;
+            margin-top: 70px; }

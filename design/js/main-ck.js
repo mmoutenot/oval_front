@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#create_btn").click(function(){$("#create_hidden").slideToggle()});$("#right input").is(":focus")&&$(this).animate({width:"500px"})});
